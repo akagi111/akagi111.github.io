@@ -1,12 +1,12 @@
-<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>2026.7.4 | 清水河无说唱的个人博客</title><meta name="author" content="清水河无说唱"><meta name="copyright" content="清水河无说唱"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="已完成pytorch学习,开始复盘hello-agents 智能体经典的范式react是一个观察环境-行动-继续观察环境的反馈模型,需要学会记录history需要限制max_steps不然会一直反馈执行 plan and solve其实挺简单的，就是prompt要好好写，需要planner和exectuor。代码量很少 reflection需要初稿和环境反馈进行优化，就是需要last_exe_ac">
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>2026.7.4 | 清水河无说唱的个人博客</title><meta name="author" content="清水河无说唱"><meta name="copyright" content="清水河无说唱"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="1 已完成pytorch学习,开始复盘hello-agents 智能体经典的范式react是一个观察环境-行动-继续观察环境的反馈模型,需要学会记录history需要限制max_steps不然会一直反馈执行 plan and solve其实挺简单的，就是prompt要好好写，需要planner和exectuor。代码量很少 reflection需要初稿和环境反馈进行优化，就是需要last_exe_">
 <meta property="og:type" content="article">
 <meta property="og:title" content="2026.7.4">
 <meta property="og:url" content="http://example.com/2026/07/05/2026-7-4/index.html">
 <meta property="og:site_name" content="清水河无说唱的个人博客">
-<meta property="og:description" content="已完成pytorch学习,开始复盘hello-agents 智能体经典的范式react是一个观察环境-行动-继续观察环境的反馈模型,需要学会记录history需要限制max_steps不然会一直反馈执行 plan and solve其实挺简单的，就是prompt要好好写，需要planner和exectuor。代码量很少 reflection需要初稿和环境反馈进行优化，就是需要last_exe_ac">
+<meta property="og:description" content="1 已完成pytorch学习,开始复盘hello-agents 智能体经典的范式react是一个观察环境-行动-继续观察环境的反馈模型,需要学会记录history需要限制max_steps不然会一直反馈执行 plan and solve其实挺简单的，就是prompt要好好写，需要planner和exectuor。代码量很少 reflection需要初稿和环境反馈进行优化，就是需要last_exe_">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2026-07-04T16:53:16.000Z">
-<meta property="article:modified_time" content="2026-07-04T17:18:48.698Z">
+<meta property="article:modified_time" content="2026-07-04T17:34:53.683Z">
 <meta property="article:author" content="清水河无说唱">
 <meta name="twitter:card" content="summary"><script type="application/ld+json">{
   "@context": "https://schema.org",
@@ -15,7 +15,7 @@
   "url": "http://example.com/2026/07/05/2026-7-4/",
   "image": "",
   "datePublished": "2026-07-04T16:53:16.000Z",
-  "dateModified": "2026-07-04T17:18:48.698Z",
+  "dateModified": "2026-07-04T17:34:53.683Z",
   "author": [
     {
       "@type": "Person",
@@ -156,7 +156,8 @@
   isHighlightShrink: false,
   isToc: true,
   pageType: 'post'
-}</script><meta name="generator" content="Hexo 8.1.2"></head><body><div class="post" id="body-wrap"><header class="post-bg" id="page-header"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><span class="site-name">清水河无说唱的个人博客</span></a><a class="nav-page-title" href="/"><span class="site-name">2026.7.4</span><span class="site-name"><i class="fa-solid fa-circle-arrow-left"></i><span>  返回首页</span></span></a></span><div id="menus"></div></nav><div id="post-info"><h1 class="post-title">2026.7.4</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2026-07-04T16:53:16.000Z" title="发表于 2026-07-05 00:53:16">2026-07-05</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2026-07-04T17:18:48.698Z" title="更新于 2026-07-05 01:18:48">2026-07-05</time></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title=""><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">浏览量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="container post-content" id="article-container"><p>已完成pytorch学习,开始复盘hello-agents</p>
+}</script><meta name="generator" content="Hexo 8.1.2"></head><body><div class="post" id="body-wrap"><header class="post-bg" id="page-header"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><span class="site-name">清水河无说唱的个人博客</span></a><a class="nav-page-title" href="/"><span class="site-name">2026.7.4</span><span class="site-name"><i class="fa-solid fa-circle-arrow-left"></i><span>  返回首页</span></span></a></span><div id="menus"></div></nav><div id="post-info"><h1 class="post-title">2026.7.4</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2026-07-04T16:53:16.000Z" title="发表于 2026-07-05 00:53:16">2026-07-05</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2026-07-04T17:34:53.683Z" title="更新于 2026-07-05 01:34:53">2026-07-05</time></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title=""><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">浏览量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="container post-content" id="article-container"><p>1</p>
+<p>已完成pytorch学习,开始复盘hello-agents</p>
 <h5 id="智能体经典的范式"><a href="#智能体经典的范式" class="headerlink" title="智能体经典的范式"></a>智能体经典的范式</h5><p>react是一个观察环境-行动-继续观察环境的反馈模型,需要学会记录history需要限制max_steps不然会一直反馈执行</p>
 <p>plan and solve其实挺简单的，就是prompt要好好写，需要planner和exectuor。代码量很少</p>
 <p>reflection需要初稿和环境反馈进行优化，就是需要last_exe_action和record。反思提示词 (Reflection Prompt) ：这个提示词是 Reflection 机制的灵魂。它指示模型扮演“代码评审员”的角色，对上一轮生成的代码进行批判性分析，并提供具体的、可操作的反馈。<br>总的来说reflection最难的是构建memory组件，要有record和last_exe_action还需要构建prompt包括反思者(批判者)和优化者。成本太高，结构复杂但是方案从“能用”变成’优秀’</p>

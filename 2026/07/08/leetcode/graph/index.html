@@ -1,12 +1,12 @@
-<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>graph | 清水河无说唱的个人博客</title><meta name="author" content="清水河无说唱"><meta name="copyright" content="清水河无说唱"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="DFS用递归往下走，走到底部了回退一步，看看还有没有没有遍历的邻居，继续往下dfs def dfs(nodes): ​	if 边界条件: return 已到达边界 ​	for neighbors of nodes: ​		dfs(neighbors) BFS用队列遍历，不非得要用递归 def bfs(start, graph):  ​	visited &#x3D; set() ​	queue &amp;#">
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>graph | 清水河无说唱的个人博客</title><meta name="author" content="清水河无说唱"><meta name="copyright" content="清水河无说唱"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="DFS用递归往下走，走到底部了回退一步，看看还有没有没有遍历的邻居，继续往下dfs def dfs(nodes): ​	if 边界条件: return 已到达边界 ​	for neighbors of nodes: ​		dfs(neighbors) BFS用队列遍历，不非得要用递归 def bfs(start, graph):  ​	visited &#x3D; set() ​	queue &#x3D; deque">
 <meta property="og:type" content="article">
 <meta property="og:title" content="graph">
 <meta property="og:url" content="https://akagi111.github.io/2026/07/08/leetcode/graph/index.html">
 <meta property="og:site_name" content="清水河无说唱的个人博客">
-<meta property="og:description" content="DFS用递归往下走，走到底部了回退一步，看看还有没有没有遍历的邻居，继续往下dfs def dfs(nodes): ​	if 边界条件: return 已到达边界 ​	for neighbors of nodes: ​		dfs(neighbors) BFS用队列遍历，不非得要用递归 def bfs(start, graph):  ​	visited &#x3D; set() ​	queue &amp;#">
+<meta property="og:description" content="DFS用递归往下走，走到底部了回退一步，看看还有没有没有遍历的邻居，继续往下dfs def dfs(nodes): ​	if 边界条件: return 已到达边界 ​	for neighbors of nodes: ​		dfs(neighbors) BFS用队列遍历，不非得要用递归 def bfs(start, graph):  ​	visited &#x3D; set() ​	queue &#x3D; deque">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2026-07-08T05:16:30.630Z">
-<meta property="article:modified_time" content="2026-07-08T05:48:24.641Z">
+<meta property="article:modified_time" content="2026-07-08T05:50:28.035Z">
 <meta property="article:author" content="清水河无说唱">
 <meta name="twitter:card" content="summary"><script type="application/ld+json">{
   "@context": "https://schema.org",
@@ -15,7 +15,7 @@
   "url": "https://akagi111.github.io/2026/07/08/leetcode/graph/",
   "image": "",
   "datePublished": "2026-07-08T05:16:30.630Z",
-  "dateModified": "2026-07-08T05:48:24.641Z",
+  "dateModified": "2026-07-08T05:50:28.035Z",
   "author": [
     {
       "@type": "Person",
@@ -156,27 +156,27 @@
   isHighlightShrink: false,
   isToc: true,
   pageType: 'post'
-}</script><meta name="generator" content="Hexo 8.1.2"></head><body><div class="post" id="body-wrap"><header class="post-bg" id="page-header"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><span class="site-name">清水河无说唱的个人博客</span></a><a class="nav-page-title" href="/"><span class="site-name">graph</span><span class="site-name"><i class="fa-solid fa-circle-arrow-left"></i><span>  返回首页</span></span></a></span><div id="menus"></div></nav><div id="post-info"><h1 class="post-title">graph</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2026-07-08T05:16:30.630Z" title="发表于 2026-07-08 13:16:30">2026-07-08</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2026-07-08T05:48:24.641Z" title="更新于 2026-07-08 13:48:24">2026-07-08</time></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title=""><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">浏览量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="container post-content" id="article-container"><h2 id="DFS"><a href="#DFS" class="headerlink" title="DFS"></a>DFS</h2><p>用递归往下走，走到底部了回退一步，看看还有没有没有遍历的邻居，继续往下dfs</p>
-<p>def dfs(nodes):</p>
-<p>​	if 边界条件: return 已到达边界</p>
-<p>​	for neighbors of nodes:</p>
-<p>​		dfs(neighbors)</p>
+}</script><meta name="generator" content="Hexo 8.1.2"></head><body><div class="post" id="body-wrap"><header class="post-bg" id="page-header"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><span class="site-name">清水河无说唱的个人博客</span></a><a class="nav-page-title" href="/"><span class="site-name">graph</span><span class="site-name"><i class="fa-solid fa-circle-arrow-left"></i><span>  返回首页</span></span></a></span><div id="menus"></div></nav><div id="post-info"><h1 class="post-title">graph</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2026-07-08T05:16:30.630Z" title="发表于 2026-07-08 13:16:30">2026-07-08</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2026-07-08T05:50:28.035Z" title="更新于 2026-07-08 13:50:28">2026-07-08</time></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title=""><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">浏览量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="container post-content" id="article-container"><h2 id="DFS"><a href="#DFS" class="headerlink" title="DFS"></a>DFS</h2><p>用递归往下走，走到底部了回退一步，看看还有没有没有遍历的邻居，继续往下dfs</p>
+<p><code>def dfs(nodes):</code></p>
+<p>​	<code>if 边界条件: return 已到达边界</code></p>
+<p>​	<code>for neighbors of nodes:</code></p>
+<p>​		<code>dfs(neighbors)</code></p>
 <h2 id="BFS"><a href="#BFS" class="headerlink" title="BFS"></a>BFS</h2><p>用队列遍历，不非得要用递归</p>
-<p>def bfs(start, graph): </p>
-<p>​	visited &#x3D; set()</p>
-<p>​	queue &#x3D; deque()        # 第一步：初始化！起点先入队、先标记    </p>
-<p>​	queue.append(start)    </p>
-<p>​	visited.add(start)        </p>
-<p>​	while queue:        </p>
-<p>​		cur &#x3D; queue.popleft()</p>
-<p>​		#第二步：处理当前节点（判断终点、记录值、计数等）                        </p>
-<p>​		print(f”处理节点: {cur}”)        </p>
-<p>​		if cur &#x3D;&#x3D; target: return 结果                </p>
-<p>​		#第三步：遍历所有直接邻居        </p>
-<p>​		for neighbor in graph[cur]:</p>
-<p>​		if neighbor not in visited: </p>
-<p>​			visited.add(neighbor)  # 入队即标记，避免重复入队               </p>
-<p>​			queue.append(neighbor)</p>
+<p><code>def bfs(start, graph):</code> </p>
+<p>​	<code>visited = set()</code></p>
+<p>​	<code>queue = deque()        # 第一步：初始化！起点先入队、先标记</code>    </p>
+<p>​	<code>queue.append(start)</code>    </p>
+<p>​	<code>visited.add(start)</code>        </p>
+<p>​	<code>while queue:</code>        </p>
+<p>​		<code>cur = queue.popleft()</code></p>
+<p>​		<code>#第二步：处理当前节点（判断终点、记录值、计数等）</code>                        </p>
+<p>​		<code>print(f&quot;处理节点: {cur}&quot;)</code>        </p>
+<p>​		<code>if cur == target: return 结果</code>                </p>
+<p>​		<code>#第三步：遍历所有直接邻居</code>        </p>
+<p>​		<code>for neighbor in graph[cur]:</code></p>
+<p>​		<code>if neighbor not in visited:</code> </p>
+<p>​			<code>visited.add(neighbor)  # 入队即标记，避免重复入队</code>               </p>
+<p>​			<code>queue.append(neighbor)</code></p>
 <h2 id="circle-of-directed-graph"><a href="#circle-of-directed-graph" class="headerlink" title="circle of directed graph"></a>circle of directed graph</h2><p>bfs k算法，adj存这个节点往后连接的节点，in_degree存进入这个节点的节点数</p>
 <p>队列初始化为入度0的节点，ans.append(nodes if in_degree[nodes]&#x3D;&#x3D;0)</p>
 <p>访问往后的节点，被访问的节点每次入度减一，入度为0时加入队列中,也加入答案中</p>
